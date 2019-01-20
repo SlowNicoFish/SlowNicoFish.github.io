@@ -1,0 +1,64 @@
+#bg
+{
+  background-color: #2d2d2d;
+  height: 100%;
+}
+.jumbotron
+{
+  background-image: url(../images/jumbotron.jpg);
+  background-size: cover;
+  box-shadow: 0 8px 20px -6px black;
+  height: 20%;
+}
+img
+{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  transition: transform .2s;
+  border: none;
+}
+img:hover
+{
+  transform: scale(1.2);
+}
+img:active
+{
+  transform: scale(0.8);
+}
+h1
+{
+  color: #ffffff;
+  font-size: 400%;
+}
+.col-centered {
+  display:inline-block;
+  float:none;
+  text-align:left;
+  text-align: center;
+}
+input[type=text]
+{
+  width: 320px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  background-color: #1a1a1a;
+  opacity: 0.5;
+  /* border: 2px solid #c6c6c6; */
+  border: none;
+  border-radius: 8px;
+  height: 40px;
+  padding: 12px 20px;
+  color: white;
+}
+input[type=text]:hover
+{
+  width: 20%;
+  opacity: 0.6;
+}
+input[type=text]:focus
+{
+  width: 30%;
+  opacity: 0.7;
+  outline: none;
+}
