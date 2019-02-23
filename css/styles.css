@@ -45,8 +45,12 @@ input[type=text]
   background-color: #1a1a1a;
   opacity: 0.5;
   /* border: 2px solid #c6c6c6; */
-  border: none;
-  border-radius: 8px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 2px solid #c6c6c6n ;
+  /*border: none;*/
+  /*border-radius: 8px;*/
   height: 40px;
   padding: 12px 20px;
   color: white;
