@@ -1,7 +1,7 @@
-body
-{
+body {
     background-image: url(../images/bg.jpg);
-    background-size: auto;
+    /*background-size: cover;*/
+    height: 100%;
 }
 h1 {
     color: white;
@@ -11,7 +11,7 @@ h1 {
 }
 #search-bar {
     background-color: darkgray;
-    width: 50%;
+    width: 200px;
     height: 10%;
     border: solid;
     border-radius: 10px;
@@ -59,10 +59,9 @@ a, a:active, a:focus {
     outline: none;
 }
 .weather {
+    
     text-align: center;
 }
-.weatherwidget-io{
+.weatherwidget-io {
     display: inline-block;
-
-    
 }
