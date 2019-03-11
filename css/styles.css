@@ -1,7 +1,7 @@
 body
 {
     background-image: url(../images/bg.jpg);
-    background-size: cover;
+    background-size: auto;
 }
 h1 {
     color: white;
@@ -45,9 +45,11 @@ h1 {
 }
 .search-bar {
     text-align: center;
+    height: 7vW;
 }
 .icons {
     text-align: center;
+    height: 7vW;
 }
 .icon-row
 {
