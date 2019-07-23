@@ -1,0 +1,4 @@
+1.1 (23.07.2019)
+- Added by darksky
+- Removed autofocus on searchbar
+- Removed searchbar

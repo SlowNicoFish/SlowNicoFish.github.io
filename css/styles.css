@@ -50,6 +50,7 @@ h1 {
 }
 .icons {
     text-align: center;
+    vertical-align: center;
     height: 100px;
 }
 .icon-row
