@@ -66,3 +66,15 @@ a, a:active, a:focus {
 .weatherwidget-io {
     display: inline-block;
 }
+.version{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+.version, p{
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+
+}
