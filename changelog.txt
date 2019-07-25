@@ -1,3 +1,7 @@
+1.2 (23.07.2019)
+- Replaced github link with google photos
+
+
 1.1 (23.07.2019)
 - Added by darksky
 - Removed autofocus on searchbar
